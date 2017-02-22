@@ -1,0 +1,111 @@
+.carousel{
+	position: relative;
+	width: 800px;
+	margin:0 auto;
+	height: 450px;
+	overflow: hidden;
+}
+.img-ct{
+	position: relative;
+}
+.img-ct a{
+	display: inline-block;
+}
+/*.img-ct img{
+	width: 310px;
+	height: 206px;
+}*/
+.img-ct:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.img-ct li{
+	float: left;
+}
+.arrow{
+	position: absolute;
+	top: 37%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	font-family: 'SimSun';
+	text-align: center;
+	background: #444;
+	color: #fff;
+	border-radius: 50px;
+	box-shadow: 0 0 2px #888;
+	opacity: 0.7;
+}
+.arrow:hover{
+	opacity: 1;
+}
+.pre{
+	left: 18px;
+}
+.next{
+	right: 18px;
+}
+.bullet{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%); /*水平偏移，使其水平居中*/
+}
+.bullet li{
+	width: 16px;
+	height: 6px;
+	border-radius: 3px;
+	background: #ccc;
+	display: inline-block;
+	cursor: pointer;
+}
+.bullet li.active{
+	background: #333;
+}
+
+/*>>>>-----*/
+
+.proj-detail{
+	position: relative;
+	margin: 20px 49px;
+	width: 700px;
+	height: 350px;
+	text-align: center;
+	color: #333;
+	border: 1px solid #ccc;
+	background: #f5f9fe;
+	box-shadow: 0 0 5px #ccc;
+}
+.proj-detail img{
+	width: 80px;
+	margin: 20px 0;
+}
+.proj-detail .p{
+	margin:20px 40px;
+	font-size: 14px;
+}
+.shadow{
+	width: 200px;
+	margin: 60px auto;
+	border: 2px solid #fff;
+	box-shadow: 0px 24px 26px #111;
+}
+
+.angle-shadow1,.angle-shadow2{
+	position: absolute;
+	top:244px;
+	width: 200px;
+	height: 40px;
+	box-shadow: 0 69px 16px #ccc;
+	z-index: -1;
+}
+.angle-shadow1{
+	left: -9px;
+	transform: rotate(-7deg);
+}
+.angle-shadow2{
+	left: 508px;
+	transform: rotate(7deg);
+}
