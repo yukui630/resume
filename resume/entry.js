@@ -7,6 +7,7 @@ import './css/templatemo_style.css';
 // import './js/templatemo_custom.js';
 require('./js/templatemo_custom.js');
 require ('./js/easyResponsiveTabs.js');
+
 function showhide(){
   var div = document.getElementById("newpost");
   if (div.style.display !== "none"){

@@ -11020,6 +11020,7 @@ __webpack_require__(7);
 // import './js/templatemo_custom.js';
 __webpack_require__(5);
 __webpack_require__(4);
+
 function showhide() {
   var div = document.getElementById("newpost");
   if (div.style.display !== "none") {
